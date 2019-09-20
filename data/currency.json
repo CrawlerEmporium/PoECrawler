@@ -1,0 +1,3472 @@
+[
+  {
+    "currencyTypeName": "Mirror of Kalandra",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 22,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 16,
+      "value": 0.0000561822804347826086956521,
+      "data_point_count": 1,
+      "includes_secondary": true
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 22,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 55,
+      "value": 18136.500000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": true
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        12.5,
+        12.5,
+        12.5,
+        50.0,
+        50.0,
+        60.19
+      ],
+      "totalChange": 60.19
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        10.70,
+        12.71,
+        21.28,
+        42.37,
+        59.80,
+        59.26
+      ],
+      "totalChange": 59.26
+    },
+    "chaosEquivalent": 17967.85,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        12.5,
+        12.5,
+        12.5,
+        50.0,
+        50.0,
+        60.19
+      ],
+      "totalChange": 60.19
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        10.70,
+        12.71,
+        21.28,
+        42.37,
+        59.80,
+        59.26
+      ],
+      "totalChange": 59.26
+    },
+    "detailsId": "mirror-of-kalandra"
+  },
+  {
+    "currencyTypeName": "Mirror Shard",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 81,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 12,
+      "value": 0.0011929718400000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": true
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 81,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 23,
+      "value": 978.7742187500000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": true
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        25.12,
+        144.55,
+        170.35,
+        174.49,
+        268.49,
+        350.97
+      ],
+      "totalChange": 350.97
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        -3.21,
+        20.19,
+        21.79,
+        29.88,
+        35.42,
+        56.85
+      ],
+      "totalChange": 56.85
+    },
+    "chaosEquivalent": 908.51,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        25.12,
+        144.55,
+        170.35,
+        174.49,
+        268.49,
+        350.97
+      ],
+      "totalChange": 350.97
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        -3.21,
+        20.19,
+        21.79,
+        29.88,
+        35.42,
+        56.85
+      ],
+      "totalChange": 56.85
+    },
+    "detailsId": "mirror-shard"
+  },
+  {
+    "currencyTypeName": "Exalted Orb",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 2,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.0058700000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 2,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 169.50000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        -4.23,
+        -4.23,
+        -1.71,
+        5.32,
+        7.82,
+        8.01
+      ],
+      "totalChange": 8.01
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        -3.77,
+        -3.85,
+        -0.64,
+        5.77,
+        8.13,
+        8.65
+      ],
+      "totalChange": 8.65
+    },
+    "chaosEquivalent": 169.93,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        -4.23,
+        -4.23,
+        -1.71,
+        5.32,
+        7.82,
+        8.01
+      ],
+      "totalChange": 8.01
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        -3.77,
+        -3.85,
+        -0.64,
+        5.77,
+        8.13,
+        8.65
+      ],
+      "totalChange": 8.65
+    },
+    "detailsId": "exalted-orb"
+  },
+  {
+    "currencyTypeName": "Blessing of Chayula",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 65,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 1,
+      "value": 0.00833,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 65,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 34,
+      "value": 141.11797752808988764044943820,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [],
+      "totalChange": 0.0
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        -18.86,
+        -38.96,
+        -41.18,
+        -39.15,
+        -41.18,
+        -42.75
+      ],
+      "totalChange": -42.75
+    },
+    "chaosEquivalent": 130.58,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        null,
+        20.05,
+        20.05,
+        20.05,
+        20.05,
+        20.05
+      ],
+      "totalChange": 20.05
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        -18.86,
+        -38.96,
+        -41.18,
+        -39.15,
+        -41.18,
+        -42.75
+      ],
+      "totalChange": -42.75
+    },
+    "detailsId": "blessing-of-chayula"
+  },
+  {
+    "currencyTypeName": "Ancient Orb",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 78,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 65,
+      "value": 0.0256400000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 78,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 37.000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        -19.35,
+        -16.12,
+        3.23,
+        10.67,
+        16.13,
+        25.82
+      ],
+      "totalChange": 25.82
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        -14.29,
+        -10.71,
+        10.71,
+        14.29,
+        21.83,
+        32.14
+      ],
+      "totalChange": 32.14
+    },
+    "chaosEquivalent": 38.00,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        -19.35,
+        -16.12,
+        3.23,
+        10.67,
+        16.13,
+        25.82
+      ],
+      "totalChange": 25.82
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        -14.29,
+        -10.71,
+        10.71,
+        14.29,
+        21.83,
+        32.14
+      ],
+      "totalChange": 32.14
+    },
+    "detailsId": "ancient-orb"
+  },
+  {
+    "currencyTypeName": "Orb of Annulment",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 73,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.0425500000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 73,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 24.00000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        2.70,
+        5.40,
+        10.80,
+        18.92,
+        24.31,
+        27.03
+      ],
+      "totalChange": 27.03
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        5.56,
+        8.33,
+        15.59,
+        23.39,
+        33.33,
+        33.33
+      ],
+      "totalChange": 33.33
+    },
+    "chaosEquivalent": 23.75,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        2.70,
+        5.40,
+        10.80,
+        18.92,
+        24.31,
+        27.03
+      ],
+      "totalChange": 27.03
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        5.56,
+        8.33,
+        15.59,
+        23.39,
+        33.33,
+        33.33
+      ],
+      "totalChange": 33.33
+    },
+    "detailsId": "orb-of-annulment"
+  },
+  {
+    "currencyTypeName": "Divine Orb",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 3,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.0571400000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 3,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 18.000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        12.50,
+        16.66,
+        29.15,
+        37.49,
+        38.35,
+        45.83
+      ],
+      "totalChange": 45.83
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        8.33,
+        16.67,
+        25.0,
+        33.33,
+        38.25,
+        50.00
+      ],
+      "totalChange": 50.00
+    },
+    "chaosEquivalent": 17.75,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        12.50,
+        16.66,
+        29.15,
+        37.49,
+        38.35,
+        45.83
+      ],
+      "totalChange": 45.83
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        8.33,
+        16.67,
+        25.0,
+        33.33,
+        38.25,
+        50.00
+      ],
+      "totalChange": 50.00
+    },
+    "detailsId": "divine-orb"
+  },
+  {
+    "currencyTypeName": "Harbinger's Orb",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 76,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 39,
+      "value": 0.0833300000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 76,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 11.000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.76,
+        7.37,
+        9.10
+      ],
+      "totalChange": 9.10
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.00
+      ],
+      "totalChange": 10.00
+    },
+    "chaosEquivalent": 11.50,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.76,
+        7.37,
+        9.10
+      ],
+      "totalChange": 9.10
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.00
+      ],
+      "totalChange": 10.00
+    },
+    "detailsId": "harbingers-orb"
+  },
+  {
+    "currencyTypeName": "Blessing of Uul-Netol",
+    "pay": null,
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 64,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 8.000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [],
+      "totalChange": 0.0
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        -8.00,
+        0.0,
+        0.0,
+        -10.0,
+        -10.0,
+        -20.00
+      ],
+      "totalChange": -20.00
+    },
+    "chaosEquivalent": 8.00,
+    "lowConfidencePaySparkLine": {
+      "data": [],
+      "totalChange": 0.0
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        -8.00,
+        0.0,
+        0.0,
+        -10.0,
+        -10.0,
+        -20.00
+      ],
+      "totalChange": -20.00
+    },
+    "detailsId": "blessing-of-uul-netol"
+  },
+  {
+    "currencyTypeName": "Exalted Shard",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 80,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 62,
+      "value": 0.1250000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 80,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 8.000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        -6.67,
+        -5.94,
+        2.25,
+        6.66,
+        6.66
+      ],
+      "totalChange": 6.66
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        -6.25,
+        -7.93,
+        -6.25,
+        0.0,
+        0.0,
+        0.00
+      ],
+      "totalChange": 0.00
+    },
+    "chaosEquivalent": 8.00,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        -6.67,
+        -5.94,
+        2.25,
+        6.66,
+        6.66
+      ],
+      "totalChange": 6.66
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        -6.25,
+        -7.93,
+        -6.25,
+        0.0,
+        0.0,
+        0.00
+      ],
+      "totalChange": 0.00
+    },
+    "detailsId": "exalted-shard"
+  },
+  {
+    "currencyTypeName": "Blessing of Esh",
+    "pay": null,
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 63,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 5.0000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [],
+      "totalChange": 0.0
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        -20.0,
+        -40.0,
+        -40.0,
+        -40.0,
+        -40.0,
+        -50.00
+      ],
+      "totalChange": -50.00
+    },
+    "chaosEquivalent": 5.00,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "totalChange": 0.0
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        -20.0,
+        -40.0,
+        -40.0,
+        -40.0,
+        -40.0,
+        -50.00
+      ],
+      "totalChange": -50.00
+    },
+    "detailsId": "blessing-of-esh"
+  },
+  {
+    "currencyTypeName": "Blessing of Tul",
+    "pay": null,
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 62,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 4.0000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [],
+      "totalChange": 0.0
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        -14.28,
+        -14.29,
+        -28.57,
+        -28.57,
+        -34.75,
+        -42.86
+      ],
+      "totalChange": -42.86
+    },
+    "chaosEquivalent": 4.00,
+    "lowConfidencePaySparkLine": {
+      "data": [],
+      "totalChange": 0.0
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        -14.28,
+        -14.29,
+        -28.57,
+        -28.57,
+        -34.75,
+        -42.86
+      ],
+      "totalChange": -42.86
+    },
+    "detailsId": "blessing-of-tul"
+  },
+  {
+    "currencyTypeName": "Blessing of Xoph",
+    "pay": null,
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 61,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 3.5050505050505050505050505051,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [],
+      "totalChange": 0.0
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        -25.0,
+        -25.0,
+        -25.0,
+        -25.0,
+        -12.37
+      ],
+      "totalChange": -12.37
+    },
+    "chaosEquivalent": 3.51,
+    "lowConfidencePaySparkLine": {
+      "data": [],
+      "totalChange": 0.0
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        -25.0,
+        -25.0,
+        -25.0,
+        -25.0,
+        -12.37
+      ],
+      "totalChange": -12.37
+    },
+    "detailsId": "blessing-of-xoph"
+  },
+  {
+    "currencyTypeName": "Stacked Deck",
+    "pay": null,
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 45,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 3.0000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [],
+      "totalChange": 0.0
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.00
+      ],
+      "totalChange": 20.00
+    },
+    "chaosEquivalent": 3.00,
+    "lowConfidencePaySparkLine": {
+      "data": [],
+      "totalChange": 0.0
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.00
+      ],
+      "totalChange": 20.00
+    },
+    "detailsId": "stacked-deck"
+  },
+  {
+    "currencyTypeName": "Master Cartographer's Sextant",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 48,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 90,
+      "value": 0.4000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 48,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 2.5000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        -3.24,
+        -3.24,
+        -16.58,
+        -16.58,
+        -19.21,
+        -16.58
+      ],
+      "totalChange": -16.58
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        -1.55,
+        -16.67,
+        -16.67,
+        -16.67,
+        -16.67
+      ],
+      "totalChange": -16.67
+    },
+    "chaosEquivalent": 2.50,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        -3.24,
+        -3.24,
+        -16.58,
+        -16.58,
+        -19.21,
+        -16.58
+      ],
+      "totalChange": -16.58
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        -1.55,
+        -16.67,
+        -16.67,
+        -16.67,
+        -16.67
+      ],
+      "totalChange": -16.67
+    },
+    "detailsId": "master-cartographers-sextant"
+  },
+  {
+    "currencyTypeName": "Splinter of Chayula",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 60,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 40,
+      "value": 0.5000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 60,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 2.0000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        1.04,
+        -0.81,
+        4.01,
+        4.01,
+        5.78,
+        15.57
+      ],
+      "totalChange": 15.57
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        33.33,
+        33.33,
+        32.57,
+        31.20,
+        33.33,
+        33.33
+      ],
+      "totalChange": 33.33
+    },
+    "chaosEquivalent": 2.00,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        1.04,
+        -0.81,
+        4.01,
+        4.01,
+        5.78,
+        15.57
+      ],
+      "totalChange": 15.57
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        33.33,
+        33.33,
+        32.57,
+        31.20,
+        33.33,
+        33.33
+      ],
+      "totalChange": 33.33
+    },
+    "detailsId": "splinter-of-chayula"
+  },
+  {
+    "currencyTypeName": "Journeyman Cartographer's Sextant",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 47,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.5454500000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 47,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 1.5132403278688524590163934426,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        0.0,
+        -0.48,
+        -3.97,
+        -2.14,
+        -3.97
+      ],
+      "totalChange": -3.97
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        2.41,
+        3.17,
+        -16.50,
+        -8.02,
+        -0.51,
+        -15.93
+      ],
+      "totalChange": -15.93
+    },
+    "chaosEquivalent": 1.67,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        0.0,
+        -0.48,
+        -3.97,
+        -2.14,
+        -3.97
+      ],
+      "totalChange": -3.97
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        2.41,
+        3.17,
+        -16.50,
+        -8.02,
+        -0.51,
+        -15.93
+      ],
+      "totalChange": -15.93
+    },
+    "detailsId": "journeyman-cartographers-sextant"
+  },
+  {
+    "currencyTypeName": "Annulment Shard",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 79,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 9,
+      "value": 1.4000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 79,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 1.5000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.84,
+        2.10,
+        7.14
+      ],
+      "totalChange": 7.14
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        53.17,
+        50.00
+      ],
+      "totalChange": 50.00
+    },
+    "chaosEquivalent": 1.11,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        10.34,
+        10.34,
+        10.34,
+        11.27,
+        12.65,
+        18.22
+      ],
+      "totalChange": 18.22
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        53.17,
+        50.00
+      ],
+      "totalChange": 50.00
+    },
+    "detailsId": "annulment-shard"
+  },
+  {
+    "currencyTypeName": "Gemcutter's Prism",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 15,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 1.0000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 15,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 1.0000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        9.61,
+        19.05,
+        19.05,
+        11.10,
+        -4.76,
+        -4.76
+      ],
+      "totalChange": -4.76
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        6.94,
+        16.44,
+        7.22,
+        -8.33,
+        -6.04,
+        -8.33
+      ],
+      "totalChange": -8.33
+    },
+    "chaosEquivalent": 1.00,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        9.61,
+        19.05,
+        19.05,
+        11.10,
+        -4.76,
+        -4.76
+      ],
+      "totalChange": -4.76
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        6.94,
+        16.44,
+        7.22,
+        -8.33,
+        -6.04,
+        -8.33
+      ],
+      "totalChange": -8.33
+    },
+    "detailsId": "gemcutters-prism"
+  },
+  {
+    "currencyTypeName": "Apprentice Cartographer's Sextant",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 46,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 1.3938150515463917525773195877,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 46,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.7142900000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        -2.23,
+        -10.71,
+        -10.71,
+        -10.71,
+        -10.71,
+        -10.32
+      ],
+      "totalChange": -10.32
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.03,
+        7.14
+      ],
+      "totalChange": 7.14
+    },
+    "chaosEquivalent": 0.72,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        -2.23,
+        -10.71,
+        -10.71,
+        -10.71,
+        -10.71,
+        -10.32
+      ],
+      "totalChange": -10.32
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.03,
+        7.14
+      ],
+      "totalChange": 7.14
+    },
+    "detailsId": "apprentice-cartographers-sextant"
+  },
+  {
+    "currencyTypeName": "Regal Orb",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 7,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 78,
+      "value": 1.5207833092783505154639175258,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 7,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.6666700000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        -2.86,
+        -11.65,
+        -16.94,
+        -19.02,
+        -28.01,
+        -29.00
+      ],
+      "totalChange": -29.00
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        -6.14,
+        -10.00,
+        -17.50,
+        -21.68,
+        -22.97,
+        -26.67
+      ],
+      "totalChange": -26.67
+    },
+    "chaosEquivalent": 0.66,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        -2.86,
+        -11.65,
+        -16.94,
+        -19.02,
+        -28.01,
+        -29.00
+      ],
+      "totalChange": -29.00
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        -6.14,
+        -10.00,
+        -17.50,
+        -21.68,
+        -22.97,
+        -26.67
+      ],
+      "totalChange": -26.67
+    },
+    "detailsId": "regal-orb"
+  },
+  {
+    "currencyTypeName": "Orb of Horizons",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 75,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 33,
+      "value": 1.7288888888888888888888888889,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 75,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.6333300000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        -6.67,
+        -6.67,
+        -16.20,
+        -19.23,
+        -19.02
+      ],
+      "totalChange": -19.02
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        -4.41,
+        -11.66,
+        -13.12,
+        -16.67,
+        -16.67,
+        -20.83
+      ],
+      "totalChange": -20.83
+    },
+    "chaosEquivalent": 0.61,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        -6.67,
+        -6.67,
+        -16.20,
+        -19.23,
+        -19.02
+      ],
+      "totalChange": -19.02
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        -4.41,
+        -11.66,
+        -13.12,
+        -16.67,
+        -16.67,
+        -20.83
+      ],
+      "totalChange": -20.83
+    },
+    "detailsId": "orb-of-horizons"
+  },
+  {
+    "currencyTypeName": "Vaal Orb",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 8,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 1.6666700000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 8,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.6060600000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        4.24,
+        3.50,
+        -0.69,
+        -4.00,
+        -4.00
+      ],
+      "totalChange": -4.00
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        4.17,
+        9.38,
+        6.21,
+        1.45,
+        1.45,
+        1.01
+      ],
+      "totalChange": 1.01
+    },
+    "chaosEquivalent": 0.60,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        4.24,
+        3.50,
+        -0.69,
+        -4.00,
+        -4.00
+      ],
+      "totalChange": -4.00
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        4.17,
+        9.38,
+        6.21,
+        1.45,
+        1.45,
+        1.01
+      ],
+      "totalChange": 1.01
+    },
+    "detailsId": "vaal-orb"
+  },
+  {
+    "currencyTypeName": "Engineer's Orb",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 77,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 14,
+      "value": 2.4301041666666666666666666667,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 77,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.6666700000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        2.25,
+        10.89,
+        10.97,
+        6.31,
+        10.98,
+        2.88
+      ],
+      "totalChange": 2.88
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        2.91,
+        3.51,
+        -4.60,
+        -10.56,
+        -20.50,
+        -20.50
+      ],
+      "totalChange": -20.50
+    },
+    "chaosEquivalent": 0.54,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        2.25,
+        10.89,
+        10.97,
+        6.31,
+        10.98,
+        2.88
+      ],
+      "totalChange": 2.88
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        2.91,
+        3.51,
+        -4.60,
+        -10.56,
+        -20.50,
+        -20.50
+      ],
+      "totalChange": -20.50
+    },
+    "detailsId": "engineers-orb"
+  },
+  {
+    "currencyTypeName": "Orb of Scouring",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 14,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 1.8888900000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 14,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.5372045,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        8.57,
+        20.98,
+        35.11,
+        36.43,
+        44.76,
+        53.28
+      ],
+      "totalChange": 53.28
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        12.39,
+        27.60,
+        39.88,
+        42.74,
+        54.60,
+        57.80
+      ],
+      "totalChange": 57.80
+    },
+    "chaosEquivalent": 0.53,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        8.57,
+        20.98,
+        35.11,
+        36.43,
+        44.76,
+        53.28
+      ],
+      "totalChange": 53.28
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        12.39,
+        27.60,
+        39.88,
+        42.74,
+        54.60,
+        57.80
+      ],
+      "totalChange": 57.80
+    },
+    "detailsId": "orb-of-scouring"
+  },
+  {
+    "currencyTypeName": "Orb of Fusing",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 5,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 2.0000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 5,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.5000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        1.56,
+        4.55,
+        6.80,
+        4.55,
+        4.55,
+        4.55
+      ],
+      "totalChange": 4.55
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        3.96,
+        5.63,
+        7.22,
+        5.70,
+        5.00,
+        5.00
+      ],
+      "totalChange": 5.00
+    },
+    "chaosEquivalent": 0.50,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        1.56,
+        4.55,
+        6.80,
+        4.55,
+        4.55,
+        4.55
+      ],
+      "totalChange": 4.55
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        3.96,
+        5.63,
+        7.22,
+        5.70,
+        5.00,
+        5.00
+      ],
+      "totalChange": 5.00
+    },
+    "detailsId": "orb-of-fusing"
+  },
+  {
+    "currencyTypeName": "Orb of Alchemy",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 4,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 2.0769200000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 4,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.5000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        -1.94,
+        -10.41,
+        -12.73,
+        -15.34,
+        -20.0,
+        -22.96
+      ],
+      "totalChange": -22.96
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        -3.10,
+        -11.11,
+        -15.79,
+        -18.01,
+        -18.72,
+        -20.00
+      ],
+      "totalChange": -20.00
+    },
+    "chaosEquivalent": 0.49,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        -1.94,
+        -10.41,
+        -12.73,
+        -15.34,
+        -20.0,
+        -22.96
+      ],
+      "totalChange": -22.96
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        -3.10,
+        -11.11,
+        -15.79,
+        -18.01,
+        -18.72,
+        -20.00
+      ],
+      "totalChange": -20.00
+    },
+    "detailsId": "orb-of-alchemy"
+  },
+  {
+    "currencyTypeName": "Orb of Regret",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 9,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 2.0769200000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 9,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.4876575757575757575757575757,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        3.03,
+        9.29,
+        -5.56,
+        -17.31,
+        -18.15,
+        -18.15
+      ],
+      "totalChange": -18.15
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        2.44,
+        -1.18,
+        -12.16,
+        -17.28,
+        -16.00,
+        -18.07
+      ],
+      "totalChange": -18.07
+    },
+    "chaosEquivalent": 0.48,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        3.03,
+        9.29,
+        -5.56,
+        -17.31,
+        -18.15,
+        -18.15
+      ],
+      "totalChange": -18.15
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        2.44,
+        -1.18,
+        -12.16,
+        -17.28,
+        -16.00,
+        -18.07
+      ],
+      "totalChange": -18.07
+    },
+    "detailsId": "orb-of-regret"
+  },
+  {
+    "currencyTypeName": "Orb of Binding",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 74,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 12,
+      "value": 3.56200000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 74,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.5000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        12.19,
+        -4.46,
+        -5.91,
+        -4.18,
+        4.41,
+        -5.51
+      ],
+      "totalChange": -5.51
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        -6.51,
+        -32.07,
+        -37.5,
+        -37.5,
+        -37.5,
+        -37.50
+      ],
+      "totalChange": -37.50
+    },
+    "chaosEquivalent": 0.39,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        12.19,
+        -4.46,
+        -5.91,
+        -4.18,
+        4.41,
+        -5.51
+      ],
+      "totalChange": -5.51
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        -6.51,
+        -32.07,
+        -37.5,
+        -37.5,
+        -37.5,
+        -37.50
+      ],
+      "totalChange": -37.50
+    },
+    "detailsId": "orb-of-binding"
+  },
+  {
+    "currencyTypeName": "Cartographer's Chisel",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 10,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 3.5123093749999999999999999999,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 10,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.2857100000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        3.45,
+        10.97,
+        6.67,
+        5.79,
+        13.89
+      ],
+      "totalChange": 13.89
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        3.12,
+        9.80,
+        17.45,
+        11.46,
+        15.51,
+        21.01
+      ],
+      "totalChange": 21.01
+    },
+    "chaosEquivalent": 0.29,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        3.45,
+        10.97,
+        6.67,
+        5.79,
+        13.89
+      ],
+      "totalChange": 13.89
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        3.12,
+        9.80,
+        17.45,
+        11.46,
+        15.51,
+        21.01
+      ],
+      "totalChange": 21.01
+    },
+    "detailsId": "cartographers-chisel"
+  },
+  {
+    "currencyTypeName": "Splinter of Uul-Netol",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 59,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 5,
+      "value": 4.2121212121212121212121212121,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 59,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.3333300000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        -0.15,
+        -0.37,
+        -0.37,
+        0.45,
+        null,
+        4.88
+      ],
+      "totalChange": 4.88
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.00
+      ],
+      "totalChange": 0.00
+    },
+    "chaosEquivalent": 0.29,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        -0.15,
+        -0.37,
+        -0.37,
+        0.45,
+        4.91,
+        4.88
+      ],
+      "totalChange": 4.88
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.00
+      ],
+      "totalChange": 0.00
+    },
+    "detailsId": "splinter-of-uul-netol"
+  },
+  {
+    "currencyTypeName": "Splinter of Tul",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 57,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 10,
+      "value": 6.0000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 57,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.3333300000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        -0.30,
+        6.73,
+        3.29,
+        -0.79,
+        -12.24,
+        -12.24
+      ],
+      "totalChange": -12.24
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.00
+      ],
+      "totalChange": 0.00
+    },
+    "chaosEquivalent": 0.25,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        -0.30,
+        6.73,
+        3.29,
+        -0.79,
+        -12.24,
+        -12.24
+      ],
+      "totalChange": -12.24
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.00
+      ],
+      "totalChange": 0.00
+    },
+    "detailsId": "splinter-of-tul"
+  },
+  {
+    "currencyTypeName": "Silver Coin",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 12,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 5.6666700000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 12,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.1709424489795918367346938775,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        0.47,
+        1.38,
+        0.60,
+        5.88,
+        5.88,
+        5.88
+      ],
+      "totalChange": 5.88
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        0.0,
+        1.91,
+        3.44,
+        8.64,
+        2.56
+      ],
+      "totalChange": 2.56
+    },
+    "chaosEquivalent": 0.17,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        0.47,
+        1.38,
+        0.60,
+        5.88,
+        5.88,
+        5.88
+      ],
+      "totalChange": 5.88
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        0.0,
+        1.91,
+        3.44,
+        8.64,
+        2.56
+      ],
+      "totalChange": 2.56
+    },
+    "detailsId": "silver-coin"
+  },
+  {
+    "currencyTypeName": "Splinter of Xoph",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 56,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 10,
+      "value": 10.943877551020408163265306122,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 56,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.25000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        9.54,
+        7.59,
+        0.0,
+        -7.67,
+        -8.62
+      ],
+      "totalChange": -8.62
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        1.44,
+        0.0,
+        2.16,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "totalChange": 0.0
+    },
+    "chaosEquivalent": 0.17,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        9.54,
+        7.59,
+        0.0,
+        -7.67,
+        -8.62
+      ],
+      "totalChange": -8.62
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        1.44,
+        0.0,
+        2.16,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "totalChange": 0.0
+    },
+    "detailsId": "splinter-of-xoph"
+  },
+  {
+    "currencyTypeName": "Glassblower's Bauble",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 19,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 40,
+      "value": 6.0000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 19,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.1445257894736842105263157895,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        0.45,
+        1.93,
+        -2.36,
+        -12.13,
+        -26.77,
+        -26.77
+      ],
+      "totalChange": -26.77
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        7.15,
+        0.49,
+        -17.25,
+        -29.30,
+        -34.92,
+        -38.05
+      ],
+      "totalChange": -38.05
+    },
+    "chaosEquivalent": 0.16,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        0.45,
+        1.93,
+        -2.36,
+        -12.13,
+        -26.77,
+        -26.77
+      ],
+      "totalChange": -26.77
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        7.15,
+        0.49,
+        -17.25,
+        -29.30,
+        -34.92,
+        -38.05
+      ],
+      "totalChange": -38.05
+    },
+    "detailsId": "glassblowers-bauble"
+  },
+  {
+    "currencyTypeName": "Orb of Chance",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 16,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 85,
+      "value": 6.9000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 16,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.1329810638297872340425531915,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        1.49,
+        5.26,
+        13.65,
+        26.64,
+        33.80,
+        44.93
+      ],
+      "totalChange": 44.93
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        7.30,
+        12.94,
+        19.22,
+        32.81,
+        43.06,
+        42.68
+      ],
+      "totalChange": 42.68
+    },
+    "chaosEquivalent": 0.14,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        1.49,
+        5.26,
+        13.65,
+        26.64,
+        33.80,
+        44.93
+      ],
+      "totalChange": 44.93
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        7.30,
+        12.94,
+        19.22,
+        32.81,
+        43.06,
+        42.68
+      ],
+      "totalChange": 42.68
+    },
+    "detailsId": "orb-of-chance"
+  },
+  {
+    "currencyTypeName": "Orb of Alteration",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 6,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 8.323991616161616161616161616,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 6,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.1166700000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        8.55,
+        4.70,
+        1.83,
+        0.63,
+        2.84,
+        22.32
+      ],
+      "totalChange": 22.32
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        13.05,
+        -0.91,
+        3.55,
+        1.86,
+        15.38,
+        25.30
+      ],
+      "totalChange": 25.30
+    },
+    "chaosEquivalent": 0.12,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        8.55,
+        4.70,
+        1.83,
+        0.63,
+        2.84,
+        22.32
+      ],
+      "totalChange": 22.32
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        13.05,
+        -0.91,
+        3.55,
+        1.86,
+        15.38,
+        25.30
+      ],
+      "totalChange": 25.30
+    },
+    "detailsId": "orb-of-alteration"
+  },
+  {
+    "currencyTypeName": "Jeweller's Orb",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 11,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 8.100000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 11,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.1264716129032258064516129032,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        1.19,
+        6.25,
+        6.25,
+        3.66,
+        3.16,
+        4.94
+      ],
+      "totalChange": 4.94
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        0.89,
+        8.86,
+        8.65,
+        7.27,
+        5.60,
+        7.18
+      ],
+      "totalChange": 7.18
+    },
+    "chaosEquivalent": 0.12,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        1.19,
+        6.25,
+        6.25,
+        3.66,
+        3.16,
+        4.94
+      ],
+      "totalChange": 4.94
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        0.89,
+        8.86,
+        8.65,
+        7.27,
+        5.60,
+        7.18
+      ],
+      "totalChange": 7.18
+    },
+    "detailsId": "jewellers-orb"
+  },
+  {
+    "currencyTypeName": "Splinter of Esh",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 58,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 6,
+      "value": 19.184210526315789473684210525,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 58,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.1601198412698412698412698413,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        null,
+        null,
+        0.0,
+        -8.20,
+        -22.11,
+        -42.58,
+        -42.58
+      ],
+      "totalChange": -42.58
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        -11.46,
+        -13.67,
+        -13.67,
+        -13.67,
+        -13.67,
+        -17.07
+      ],
+      "totalChange": -17.07
+    },
+    "chaosEquivalent": 0.11,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        -0.12,
+        17.74,
+        8.08,
+        -8.29,
+        -32.39,
+        -32.39
+      ],
+      "totalChange": -32.39
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        -11.46,
+        -13.67,
+        -13.67,
+        -13.67,
+        -13.67,
+        -17.07
+      ],
+      "totalChange": -17.07
+    },
+    "detailsId": "splinter-of-esh"
+  },
+  {
+    "currencyTypeName": "Blessed Orb",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 18,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 29,
+      "value": 9.013793103448275862068965517,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 18,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.0666700000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        3.08,
+        -2.35,
+        -11.88,
+        -22.69,
+        -22.69,
+        -31.39
+      ],
+      "totalChange": -31.39
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        -4.76,
+        -26.76,
+        -31.82,
+        -50.0,
+        -58.38,
+        -66.66
+      ],
+      "totalChange": -66.66
+    },
+    "chaosEquivalent": 0.09,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        3.08,
+        -2.35,
+        -11.88,
+        -22.69,
+        -22.69,
+        -31.39
+      ],
+      "totalChange": -31.39
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        -4.76,
+        -26.76,
+        -31.82,
+        -50.0,
+        -58.38,
+        -66.66
+      ],
+      "totalChange": -66.66
+    },
+    "detailsId": "blessed-orb"
+  },
+  {
+    "currencyTypeName": "Chromatic Orb",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 17,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 12.000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 17,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.0789772727272727272727272727,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        4.71,
+        10.50,
+        5.87,
+        -4.24,
+        -10.04,
+        -4.24
+      ],
+      "totalChange": -4.24
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        5.45,
+        2.35,
+        0.87,
+        -10.78,
+        -8.60,
+        -8.39
+      ],
+      "totalChange": -8.39
+    },
+    "chaosEquivalent": 0.08,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        4.71,
+        10.50,
+        5.87,
+        -4.24,
+        -10.04,
+        -4.24
+      ],
+      "totalChange": -4.24
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        5.45,
+        2.35,
+        0.87,
+        -10.78,
+        -8.60,
+        -8.39
+      ],
+      "totalChange": -8.39
+    },
+    "detailsId": "chromatic-orb"
+  },
+  {
+    "currencyTypeName": "Armourer's Scrap",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 26,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 21,
+      "value": 28.000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 26,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.0633026373626373626373626374,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        4.15,
+        5.29,
+        5.99,
+        4.33,
+        3.70,
+        0.0
+      ],
+      "totalChange": 0.0
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        24.45,
+        23.42,
+        25.01,
+        16.68,
+        25.01,
+        10.79
+      ],
+      "totalChange": 10.79
+    },
+    "chaosEquivalent": 0.05,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        4.15,
+        5.29,
+        5.99,
+        4.33,
+        3.70,
+        0.0
+      ],
+      "totalChange": 0.0
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        24.45,
+        23.42,
+        25.01,
+        16.68,
+        25.01,
+        10.79
+      ],
+      "totalChange": 10.79
+    },
+    "detailsId": "armourers-scrap"
+  },
+  {
+    "currencyTypeName": "Orb of Augmentation",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 20,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 39,
+      "value": 33.000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 20,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.0413995454545454545454545454,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        1.81,
+        2.70,
+        5.56,
+        11.76,
+        15.15,
+        15.15
+      ],
+      "totalChange": 15.15
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        3.32,
+        2.48,
+        10.23,
+        19.87,
+        3.32,
+        28.33
+      ],
+      "totalChange": 28.33
+    },
+    "chaosEquivalent": 0.04,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        1.81,
+        2.70,
+        5.56,
+        11.76,
+        15.15,
+        15.15
+      ],
+      "totalChange": 15.15
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        3.32,
+        2.48,
+        10.23,
+        19.87,
+        3.32,
+        28.33
+      ],
+      "totalChange": 28.33
+    },
+    "detailsId": "orb-of-augmentation"
+  },
+  {
+    "currencyTypeName": "Blacksmith's Whetstone",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 25,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 31,
+      "value": 28.216666666666666666666666666,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 25,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.0523311363636363636363636364,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        5.66,
+        12.71,
+        10.93,
+        2.60,
+        8.39,
+        6.32
+      ],
+      "totalChange": 6.32
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        2.68,
+        -0.18,
+        0.0,
+        -5.77,
+        -8.68,
+        -21.51
+      ],
+      "totalChange": -21.51
+    },
+    "chaosEquivalent": 0.04,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        5.66,
+        12.71,
+        10.93,
+        2.60,
+        8.39,
+        6.32
+      ],
+      "totalChange": 6.32
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        2.68,
+        -0.18,
+        0.0,
+        -5.77,
+        -8.68,
+        -21.51
+      ],
+      "totalChange": -21.51
+    },
+    "detailsId": "blacksmiths-whetstone"
+  },
+  {
+    "currencyTypeName": "Orb of Transmutation",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 21,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 55,
+      "value": 34.000000000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 21,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.0317500000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        5.26,
+        0.0,
+        -2.51,
+        -10.00,
+        -10.00,
+        -11.76
+      ],
+      "totalChange": -11.76
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        -3.10,
+        -1.51,
+        -11.54,
+        -27.29,
+        -26.49,
+        -23.81
+      ],
+      "totalChange": -23.81
+    },
+    "chaosEquivalent": 0.03,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        5.26,
+        0.0,
+        -2.51,
+        -10.00,
+        -10.00,
+        -11.76
+      ],
+      "totalChange": -11.76
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        -3.10,
+        -1.51,
+        -11.54,
+        -27.29,
+        -26.49,
+        -23.81
+      ],
+      "totalChange": -23.81
+    },
+    "detailsId": "orb-of-transmutation"
+  },
+  {
+    "currencyTypeName": "Portal Scroll",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 24,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 27,
+      "value": 34.965185185185185185185185185,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 24,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.0370400000000000000000000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        5.28,
+        0.00,
+        0.60,
+        0.00,
+        0.03,
+        0.10
+      ],
+      "totalChange": 0.10
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        3.79,
+        -8.49,
+        -8.27,
+        -8.99,
+        -7.75,
+        -7.75
+      ],
+      "totalChange": -7.75
+    },
+    "chaosEquivalent": 0.03,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        5.28,
+        0.00,
+        0.60,
+        0.00,
+        0.03,
+        0.10
+      ],
+      "totalChange": 0.10
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        3.79,
+        -8.49,
+        -8.27,
+        -8.99,
+        -7.75,
+        -7.75
+      ],
+      "totalChange": -7.75
+    },
+    "detailsId": "portal-scroll"
+  },
+  {
+    "currencyTypeName": "Perandus Coin",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 13,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 34,
+      "value": 65.00000000,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 13,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.0176132075471698113207547170,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        -3.78,
+        0.04,
+        7.69,
+        6.97,
+        7.69
+      ],
+      "totalChange": 7.69
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        -0.61,
+        -2.53,
+        -2.53,
+        -2.53,
+        -2.53,
+        -10.73
+      ],
+      "totalChange": -10.73
+    },
+    "chaosEquivalent": 0.02,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        0.0,
+        -3.78,
+        0.04,
+        7.69,
+        6.97,
+        7.69
+      ],
+      "totalChange": 7.69
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        -0.61,
+        -2.53,
+        -2.53,
+        -2.53,
+        -2.53,
+        -10.73
+      ],
+      "totalChange": -10.73
+    },
+    "detailsId": "perandus-coin"
+  },
+  {
+    "currencyTypeName": "Scroll of Wisdom",
+    "pay": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 23,
+      "get_currency_id": 1,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 29,
+      "value": 113.93563218390804597701149425,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "receive": {
+      "id": 0,
+      "league_id": 70,
+      "pay_currency_id": 1,
+      "get_currency_id": 23,
+      "sample_time_utc": "2019-09-20T08:29:29.1446328Z",
+      "count": 100,
+      "value": 0.0121752808988764044943820225,
+      "data_point_count": 1,
+      "includes_secondary": false
+    },
+    "paySparkLine": {
+      "data": [
+        0.0,
+        7.65,
+        7.65,
+        7.65,
+        4.34,
+        -4.84,
+        -5.52
+      ],
+      "totalChange": -5.52
+    },
+    "receiveSparkLine": {
+      "data": [
+        0.0,
+        6.25,
+        -8.18,
+        -7.58,
+        -8.18,
+        -7.88,
+        -9.48
+      ],
+      "totalChange": -9.48
+    },
+    "chaosEquivalent": 0.01,
+    "lowConfidencePaySparkLine": {
+      "data": [
+        0.0,
+        7.65,
+        7.65,
+        7.65,
+        4.34,
+        -4.84,
+        -5.52
+      ],
+      "totalChange": -5.52
+    },
+    "lowConfidenceReceiveSparkLine": {
+      "data": [
+        0.0,
+        6.25,
+        -8.18,
+        -7.58,
+        -8.18,
+        -7.88,
+        -9.48
+      ],
+      "totalChange": -9.48
+    },
+    "detailsId": "scroll-of-wisdom"
+  }
+]

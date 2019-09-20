@@ -1,12 +1,11 @@
 import sqlite3
 import asyncio
 import time
-
 from utils import logger
 
 log = logger.logger
 
-conn = sqlite3.connect('<>Crawler.db')
+conn = sqlite3.connect(f'PoECrawler.db')
 c = conn.cursor()
 
 c.execute(

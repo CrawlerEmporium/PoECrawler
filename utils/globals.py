@@ -18,6 +18,7 @@ TOKEN = env('TOKEN')
 COGS = env('COGS')
 OWNER = int(env('OWNER'))
 NAME = "PoECrawler"
+LEAGUE = env('LEAGUE')
 
 BOT = 574554734187380756
 PM_TRUE = True
