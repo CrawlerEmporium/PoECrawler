@@ -69,7 +69,7 @@ class Info(commands.Cog):
     async def invite(self, ctx):
         em = GG.EmbedWithAuthor(ctx)
         em.title = 'Invite Me!'
-        em.description = "Hi, you can easily invite me to your own server by following [this link]()!\n\n"
+        em.description = "Hi, you can easily invite me to your own server by following [this link](https://discordapp.com/oauth2/authorize?client_id=624228069866995712&scope=bot&permissions=536977472)!\n\n"
         await ctx.send(embed=em)
         await GG.upCommand("invite")
 
