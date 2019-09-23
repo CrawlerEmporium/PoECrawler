@@ -61,15 +61,15 @@ class Compendium:
         r = requests.get(url=url)
         self.prophecy = r.json()
 
-        url = f"http://cdn.poe.ninja/api/Data/GetUniqueMapOverview?league={GG.LEAGUE}"
+        url = f"http://poe.ninja/api/Data/GetUniqueMapOverview?league={GG.LEAGUE}"
         r = requests.get(url=url)
         self.uniquemap = r.json()
 
-        url = f"http://cdn.poe.ninja/api/Data/GetUniqueJewelOverview?league={GG.LEAGUE}"
+        url = f"http://poe.ninja/api/Data/GetUniqueJewelOverview?league={GG.LEAGUE}"
         r = requests.get(url=url)
         self.jewel = r.json()
 
-        url = f"http://cdn.poe.ninja/api/Data/GetUniqueAccessoryOverview?league={GG.LEAGUE}"
+        url = f"http://poe.ninja/api/Data/GetUniqueAccessoryOverview?league={GG.LEAGUE}"
         r = requests.get(url=url)
         self.accessory = r.json()
 
@@ -77,15 +77,15 @@ class Compendium:
         r = requests.get(url=url)
         self.map = r.json()
 
-        url = f"http://cdn.poe.ninja/api/Data/GetUniqueArmourOverview?league={GG.LEAGUE}"
+        url = f"http://poe.ninja/api/Data/GetUniqueArmourOverview?league={GG.LEAGUE}"
         r = requests.get(url=url)
         self.armor = r.json()
 
-        url = f"http://cdn.poe.ninja/api/Data/GetUniqueFlaskOverview?league={GG.LEAGUE}"
+        url = f"http://poe.ninja/api/Data/GetUniqueFlaskOverview?league={GG.LEAGUE}"
         r = requests.get(url=url)
         self.flask = r.json()
 
-        url = f"http://cdn.poe.ninja/api/Data/GetUniqueWeaponOverview?league={GG.LEAGUE}"
+        url = f"http://poe.ninja/api/Data/GetUniqueWeaponOverview?league={GG.LEAGUE}"
         r = requests.get(url=url)
         self.weapon = r.json()
 
@@ -93,7 +93,7 @@ class Compendium:
         r = requests.get(url=url)
         self.essence = r.json()
 
-        url = f"http://cdn.poe.ninja/api/Data/GetDivinationCardsOverview?league={GG.LEAGUE}"
+        url = f"http://poe.ninja/api/Data/GetDivinationCardsOverview?league={GG.LEAGUE}"
         r = requests.get(url=url)
         self.divination = r.json()
 
