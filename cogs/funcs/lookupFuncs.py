@@ -70,44 +70,45 @@ def callAPIToGetFiles():
 
 class Compendium:
     def __init__(self):
-        callAPIToGetFiles()
-        # with open('./data/accessory.json', 'r') as f:
-        #     data = json.load(f)
-        #     self.accessory = data['lines']
-        #     print(self.accessory)
-        # with open('./data/armor.json', 'r') as f:
-        #     self.armor = json.load(f)['lines']
-        #     self.armorDetails = json.load(f)['']
-        # with open('./data/currency.json', 'r') as f:
-        #     self.currency = json.load(f)['lines']
-        #     self.currencyDetails = json.load(f)['currencyDetails']
-        # with open('./data/divination.json', 'r') as f:
-        #     self.divination = json.load(f)['lines']
-        #     self.divinationDetails = json.load(f)['']
-        # with open('./data/essence.json', 'r') as f:
-        #     self.essence = json.load(f)['lines']
-        #     self.essenceDetails = json.load(f)['']
-        # with open('./data/flask.json', 'r') as f:
-        #     self.flask = json.load(f)['lines']
-        #     self.flaskDetails = json.load(f)['']
-        # with open('./data/fragment.json', 'r') as f:
-        #     self.fragment = json.load(f)['lines']
-        #     self.fragmentDetails = json.load(f)['']
-        # with open('./data/jewel.json', 'r') as f:
-        #     self.jewel = json.load(f)['lines']
-        #     self.jewelDetails = json.load(f)['']
-        # with open('./data/map.json', 'r') as f:
-        #     self.map = json.load(f)['lines']
-        #     self.mapDetails = json.load(f)['']
-        # with open('./data/prophecy.json', 'r') as f:
-        #     self.prophecy = json.load(f)['lines']
-        #     self.prophecyDetails = json.load(f)['']
-        # with open('./data/uniquemap.json', 'r') as f:
-        #     self.uniquemap = json.load(f)['lines']
-        #     self.uniquemapDetails = json.load(f)['']
-        # with open('./data/weapon.json', 'r') as f:
-        #     self.weapon = json.load(f)['lines']
-        #     self.weaponDetails = json.load(f)['']
+        # callAPIToGetFiles()
+        with open('./data/accessory.json', 'r') as f:
+            data = json.load(f)
+            self.accessory = data['lines']
+        with open('./data/armor.json', 'r') as f:
+            data = json.load(f)
+            self.armor = data['lines']
+        with open('./data/currency.json', 'r') as f:
+            data = json.load(f)
+            self.currency = data['lines']
+            self.currencyDetails = data['currencyDetails']
+        with open('./data/divination.json', 'r') as f:
+            data = json.load(f)
+            self.divination = data['lines']
+        with open('./data/essence.json', 'r') as f:
+            data = json.load(f)
+            self.essence = data['lines']
+        with open('./data/flask.json', 'r') as f:
+            data = json.load(f)
+            self.flask = data['lines']
+        with open('./data/fragment.json', 'r') as f:
+            data = json.load(f)
+            self.fragment = data['lines']
+            self.fragmentDetails = data['currencyDetails']
+        with open('./data/jewel.json', 'r') as f:
+            data = json.load(f)
+            self.jewel = data['lines']
+        with open('./data/map.json', 'r') as f:
+            data = json.load(f)
+            self.map = data['lines']
+        with open('./data/prophecy.json', 'r') as f:
+            data = json.load(f)
+            self.prophecy = data['lines']
+        with open('./data/uniquemap.json', 'r') as f:
+            data = json.load(f)
+            self.uniquemap = data['lines']
+        with open('./data/weapon.json', 'r') as f:
+            data = json.load(f)
+            self.weapon = data['lines']
 
 
 c = Compendium()

@@ -12,16 +12,16 @@ log = logger.logger
 
 
 
-class Currency(commands.Cog):
+class Fragment(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.command(aliases=['curr'])
-    async def currency(self, ctx, *, name):
+    @commands.command(aliases=['frag'])
+    async def fragment(self, ctx, *, name):
         try:
-                result, metadata = await search_and_select(ctx, c.currency, name, lambda e: e['currencyTypeName'],
+                result, metadata = await search_and_select(ctx, c.fragment, name, lambda e: e['currencyTypeName'],
                                                            return_metadata=True)
-                icon, metadata = await search_and_select(ctx, c.currencyDetails, result['currencyTypeName'], lambda e: e['name'],
+                icon, metadata = await search_and_select(ctx, c.fragmentDetails, result['currencyTypeName'], lambda e: e['name'],
                                                            return_metadata=True)
         except:
             return
@@ -31,5 +31,5 @@ class Currency(commands.Cog):
 
 
 def setup(bot):
-    log.info("Loading Currency Cog...")
-    bot.add_cog(Currency(bot))
+    log.info("Loading Fragment Cog...")
+    bot.add_cog(Fragment(bot))

@@ -65,7 +65,7 @@ def search(list_to_search: list, value, key, cutoff=5, return_key=False, strict=
 
 async def search_and_select(ctx, list_to_search: list, value, key, cutoff=5, return_key=False, pm=False, message=None,
                             list_filter=None, selectkey=None, search_func=search, return_metadata=False,
-                            optionsKey=None, disableFullMatch=False):
+                            optionsKey=None, disableFullMatch=False, armor=False, weapon=False):
     """
     Searches a list for an object matching the key, and prompts user to select on multiple matches.
     :param ctx: The context of the search.
@@ -120,11 +120,10 @@ async def search_and_select(ctx, list_to_search: list, value, key, cutoff=5, ret
                 actualOptions = []
                 debugString = ""
                 for x in range(len(options)):
-                    print(fuzz.partial_ratio(str(options[x]).lower(), value.lower()))
                     actualOptions.append(options[x]) if fuzz.partial_ratio(str(options[x]).lower(),
                                                                            value.lower()) > 75 else None
                 if len(actualOptions) > 0:
-                    result = await get_selection(ctx, actualOptions, pm=pm, message=message, force_select=True)
+                    result = await get_selection(ctx, actualOptions, pm=pm, message=message, force_select=True, armor=armor, weapon=weapon)
                 else:
                     if ctx.bot.testing:
                         for x in results:
@@ -194,7 +193,7 @@ async def splitDiscordEmbedField(embed, input, embed_field_name):
     for piece in texts[1:]:
         embed.add_field(name="** **", value=piece)
 
-async def get_selection(ctx, choices, delete=True, pm=False, message=None, force_select=False):
+async def get_selection(ctx, choices, delete=True, pm=False, message=None, force_select=False, armor=False, weapon=False):
     """Returns the selected choice, or None. Choices should be a list of two-tuples of (name, choice).
     If delete is True, will delete the selection message and the response.
     If length of choices is 1, will return the only choice.
@@ -216,7 +215,29 @@ async def get_selection(ctx, choices, delete=True, pm=False, message=None, force
 
     for n in range(200):
         _choices = pages[page]
-        names = [o[0] for o in _choices if o]
+        names = []
+        for o in _choices:
+            if o:
+                if armor:
+                    link = ""
+                    if o[1]['links'] == 0:
+                        link = "1-4L"
+                    if o[1]['links'] == 5:
+                        link = "5L"
+                    if o[1]['links'] == 6:
+                        link = "6L"
+                    names.append(f"{o[0]} {link}")
+                elif weapon:
+                    link = ""
+                    if o[1]['links'] == 0:
+                        link = "1-3L"
+                    if o[1]['links'] == 5:
+                        link = "5L"
+                    if o[1]['links'] == 6:
+                        link = "6L"
+                    names.append(f"{o[0]} {link}")
+                else:
+                    names.append(f"{o[0]}")
         embed = discord.Embed()
         embed.title = "Multiple Matches Found"
         selectStr = "Which one were you looking for? (Type the number or \"c\" to cancel)\n"
