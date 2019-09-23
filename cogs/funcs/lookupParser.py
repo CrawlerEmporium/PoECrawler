@@ -95,7 +95,12 @@ async def armorParser(ctx, result):
                     value=f"{chaos}c")
     embed.add_field(name="Worth in Exalted Orbs",
                     value=f"{exalt}ex")
-    embed.add_field(name="Currently being sold", value=f"{result['count']}")
+    currentlySold = result['count']
+    if currentlySold == 99:
+        currentlySold = "99+"
+    else:
+        currentlySold = str(currentlySold)
+    embed.add_field(name="Currently being sold", value=f"{currentlySold}")
     description = f"Requires Level: **{result['levelRequired']}**\n\n"
     for x in result['implicitModifiers']:
         if x['text'] != "Item sells for much more to vendors":
