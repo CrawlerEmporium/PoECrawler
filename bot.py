@@ -202,4 +202,5 @@ if __name__ == "__main__":
             bot.load_extension(GG.COGS + "." + extension)
         except Exception as e:
             log.error(f'Failed to load extension {extension}')
+            log.error(e)
     bot.run(bot.token)
