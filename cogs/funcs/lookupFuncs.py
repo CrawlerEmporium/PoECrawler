@@ -7,7 +7,7 @@ from utils.functions import search_and_select
 
 log = logging.getLogger(__name__)
 
-async def callAPIToGetFiles():
+def callAPIToGetFiles():
     url = f"http://poe.ninja/api/Data/GetCurrencyOverview?league={GG.LEAGUE}"
     r = requests.get(url=url)
     with open("./data/currency.json", "w+") as f:
@@ -70,7 +70,7 @@ async def callAPIToGetFiles():
 
 class Compendium:
     def __init__(self):
-        pass
+        callAPIToGetFiles()
         # with open('./data/accessory.json', 'r') as f:
         #     data = json.load(f)
         #     self.accessory = data['lines']
