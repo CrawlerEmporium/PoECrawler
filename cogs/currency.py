@@ -16,18 +16,18 @@ class Currency(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.command()
-    async def currency(self, ctx, *, name):
-        try:
-                result, metadata = await search_and_select(ctx, c.currency, name, lambda e: e['currencyTypeName'],
-                                                           return_metadata=True)
-                icon, metadata = await search_and_select(ctx, c.currencyDetails, result['currencyTypeName'], lambda e: e['name'],
-                                                           return_metadata=True)
-        except:
-            return
-
-        embed = await currencyParser(ctx, result, icon)
-        await ctx.send(embed=embed)
+    # @commands.command()
+    # async def currency(self, ctx, *, name):
+    #     try:
+    #             result, metadata = await search_and_select(ctx, c.currency, name, lambda e: e['lines'],
+    #                                                        return_metadata=True)
+    #             icon, metadata = await search_and_select(ctx, c.currency, result['currencyTypeName'], lambda e: e['currencyDetails'],
+    #                                                        return_metadata=True)
+    #     except:
+    #         return
+    #
+    #     embed = await currencyParser(ctx, result, icon)
+    #     await ctx.send(embed=embed)
 
 
 def setup(bot):

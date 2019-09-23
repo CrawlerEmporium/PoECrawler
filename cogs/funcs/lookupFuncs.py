@@ -70,10 +70,11 @@ async def callAPIToGetFiles():
 
 class Compendium:
     def __init__(self):
-        with open('./data/accessory.json', 'r') as f:
-            data = json.load(f)
-            self.accessory = data['lines']
-            print(self.accessory)
+        pass
+        # with open('./data/accessory.json', 'r') as f:
+        #     data = json.load(f)
+        #     self.accessory = data['lines']
+        #     print(self.accessory)
         # with open('./data/armor.json', 'r') as f:
         #     self.armor = json.load(f)['lines']
         #     self.armorDetails = json.load(f)['']
