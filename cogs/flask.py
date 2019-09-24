@@ -2,7 +2,7 @@ import typing
 import discord
 from discord.ext import commands
 from utils import logger
-from cogs.funcs.lookupFuncs import c
+import utils.globals as GG
 from cogs.funcs.lookupParser import defaultParser
 from utils.functions import search_and_select
 
