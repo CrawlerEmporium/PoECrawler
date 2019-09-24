@@ -9,9 +9,6 @@ from utils.functions import search_and_select
 log = logger.logger
 
 
-
-
-
 class Accessory(commands.Cog):
     def __init__(self, bot):
         self.bot = bot

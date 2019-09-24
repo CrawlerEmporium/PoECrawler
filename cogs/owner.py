@@ -80,7 +80,6 @@ class Owner(commands.Cog):
         await ctx.send(response)
 
     @commands.command(hidden=True)
-    @commands.is_owner()
     async def load(self, ctx, extension_name: str):
         """[OWNER ONLY]"""
         if ctx.author.id == GG.OWNER:
@@ -92,7 +91,6 @@ class Owner(commands.Cog):
             await ctx.send("{} loaded".format(extension_name))
 
     @commands.command(hidden=True)
-    @commands.is_owner()
     async def unload(self, ctx, extension_name: str):
         """[OWNER ONLY]"""
         if ctx.author.id == GG.OWNER:
