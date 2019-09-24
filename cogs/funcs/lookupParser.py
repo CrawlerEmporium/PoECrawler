@@ -56,7 +56,7 @@ async def defaultParser(ctx, result):
     embed.add_field(name="Currently being sold", value=f"{currentlySold}", inline=False)
     if result['stackSize'] != 0:
         try:
-            if "Essence" not in result['baseType']:
+            if "Essence" not in result['baseType'] or result['baseType'] is None:
                 description = f"Decksize: **{result['stackSize']}**\n\n"
             else:
                 description = ""
