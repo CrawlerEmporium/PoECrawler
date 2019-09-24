@@ -198,11 +198,11 @@ async def on_command_error(ctx, error):
 
 if __name__ == "__main__":
     bot.state = "run"
+    bot.loop.create_task(callAPIToGetFiles(bot))
     for extension in [f.replace('.py', '') for f in listdir(GG.COGS) if isfile(join(GG.COGS, f))]:
         try:
             bot.load_extension(GG.COGS + "." + extension)
         except Exception as e:
             log.error(f'Failed to load extension {extension}')
             log.error(e)
-    bot.loop.create_task(callAPIToGetFiles(bot))
     bot.run(bot.token)
