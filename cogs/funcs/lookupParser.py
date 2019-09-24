@@ -1,7 +1,6 @@
 import discord
 
 from utils import globals as GG
-from cogs.funcs.lookupFuncs import c
 from utils.functions import search_and_select, search, splitDiscordEmbedField
 
 
