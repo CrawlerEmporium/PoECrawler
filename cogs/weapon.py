@@ -19,7 +19,7 @@ class Weapon(commands.Cog):
     @commands.command()
     async def weapon(self, ctx, *, name):
         try:
-                result, metadata = await search_and_select(ctx, c.weapon, name, lambda e: e['name'],
+                result, metadata = await search_and_select(ctx, GG.COMPENDIUM.weapon, name, lambda e: e['name'],
                                                            return_metadata=True, weapon=True)
         except:
             return

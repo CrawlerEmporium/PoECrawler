@@ -2,7 +2,7 @@ import typing
 import discord
 from discord.ext import commands
 from utils import logger
-from cogs.funcs.lookupFuncs import c
+import utils.globals as GG
 from cogs.funcs.lookupParser import defaultParser
 from utils.functions import search_and_select
 
@@ -19,7 +19,7 @@ class Jewel(commands.Cog):
     @commands.command()
     async def jewel(self, ctx, *, name):
         try:
-                result, metadata = await search_and_select(ctx, c.jewel, name, lambda e: e['name'],
+                result, metadata = await search_and_select(ctx, GG.COMPENDIUM.jewel, name, lambda e: e['name'],
                                                            return_metadata=True)
         except:
             return

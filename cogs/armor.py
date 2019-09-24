@@ -2,7 +2,7 @@ import typing
 import discord
 from discord.ext import commands
 from utils import logger
-from cogs.funcs.lookupFuncs import c
+import utils.globals as GG
 from cogs.funcs.lookupParser import armorParser
 from utils.functions import search_and_select
 
@@ -19,7 +19,7 @@ class Armor(commands.Cog):
     @commands.command()
     async def armor(self, ctx, *, name):
         try:
-                result, metadata = await search_and_select(ctx, c.armor, name, lambda e: e['name'],
+                result, metadata = await search_and_select(ctx, GG.COMPENDIUM.armor, name, lambda e: e['name'],
                                                            return_metadata=True, armor=True)
         except:
             return

@@ -19,7 +19,7 @@ class Flask(commands.Cog):
     @commands.command()
     async def flask(self, ctx, *, name):
         try:
-                result, metadata = await search_and_select(ctx, c.flask, name, lambda e: e['name'],
+                result, metadata = await search_and_select(ctx, GG.COMPENDIUM.flask, name, lambda e: e['name'],
                                                            return_metadata=True)
         except:
             return

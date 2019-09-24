@@ -2,7 +2,7 @@ import typing
 import discord
 from discord.ext import commands
 from utils import logger
-from cogs.funcs.lookupFuncs import c
+import utils.globals as GG
 from cogs.funcs.lookupParser import currencyParser
 from utils.functions import search_and_select
 
@@ -19,9 +19,9 @@ class Fragment(commands.Cog):
     @commands.command(aliases=['frag'])
     async def fragment(self, ctx, *, name):
         try:
-                result, metadata = await search_and_select(ctx, c.fragment, name, lambda e: e['currencyTypeName'],
+                result, metadata = await search_and_select(ctx, GG.COMPENDIUM.fragment, name, lambda e: e['currencyTypeName'],
                                                            return_metadata=True)
-                icon, metadata = await search_and_select(ctx, c.fragmentDetails, result['currencyTypeName'], lambda e: e['name'],
+                icon, metadata = await search_and_select(ctx, GG.COMPENDIUM.fragmentDetails, result['currencyTypeName'], lambda e: e['name'],
                                                            return_metadata=True)
         except:
             return
