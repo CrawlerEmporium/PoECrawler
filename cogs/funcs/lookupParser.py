@@ -54,21 +54,22 @@ async def defaultParser(ctx, result):
     else:
         currentlySold = str(currentlySold)
     embed.add_field(name="Currently being sold", value=f"{currentlySold}", inline=False)
+    description = ""
     if result['stackSize'] != 0:
         try:
             if "Essence" not in result['baseType'] or result['baseType'] is None:
-                description = f"Decksize: **{result['stackSize']}**\n\n"
+                description += f"Decksize: **{result['stackSize']}**\n\n"
             else:
-                description = ""
+                description += ""
         except Exception:
-            description = ""
+            description += ""
     else:
         if result['levelRequired'] != 0:
-            description = f"Requires Level: **{result['levelRequired']}**\n\n"
+            description += f"Requires Level: **{result['levelRequired']}**\n\n"
         elif result['prophecyText'] != None:
-            description = f"{result['prophecyText']}\n"
+            description += f"{result['prophecyText']}\n"
         else:
-            description = ""
+            description += ""
     for x in result['implicitModifiers']:
         if x['text'] != "Item sells for much more to vendors":
             description += f"{x['text']}\n"
