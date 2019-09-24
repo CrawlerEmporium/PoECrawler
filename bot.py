@@ -19,7 +19,7 @@ from os.path import isfile, join
 from discord.ext.commands import CommandInvokeError
 from discord.ext import commands
 from utils.functions import gen_error_message, discord_trim
-from cogs.funcs.lookupFuncs import callAPIToGetFiles
+from cogs.funcs.lookupFuncs import callAPIToGetFiles, Compendium
 
 log = logger.logger
 
@@ -198,6 +198,7 @@ async def on_command_error(ctx, error):
 
 if __name__ == "__main__":
     bot.state = "run"
+    GG.COMPENDIUM = Compendium()
     bot.loop.create_task(callAPIToGetFiles(bot))
     for extension in [f.replace('.py', '') for f in listdir(GG.COGS) if isfile(join(GG.COGS, f))]:
         try:
