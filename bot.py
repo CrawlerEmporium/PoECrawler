@@ -19,6 +19,7 @@ from os.path import isfile, join
 from discord.ext.commands import CommandInvokeError
 from discord.ext import commands
 from utils.functions import gen_error_message, discord_trim
+from cogs.funcs.lookupFuncs import callAPIToGetFiles
 
 log = logger.logger
 
@@ -203,4 +204,5 @@ if __name__ == "__main__":
         except Exception as e:
             log.error(f'Failed to load extension {extension}')
             log.error(e)
+    bot.loop.create_task(callAPIToGetFiles(bot))
     bot.run(bot.token)
