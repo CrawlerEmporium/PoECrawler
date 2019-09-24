@@ -57,7 +57,7 @@ async def defaultParser(ctx, result):
     description = ""
     if result['stackSize'] != 0:
         try:
-            if "Essence" not in result['baseType'] or result['baseType'] is None:
+            if result['baseType'] is None:
                 description += f"Decksize: **{result['stackSize']}**\n\n"
             else:
                 description += ""
